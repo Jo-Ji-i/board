@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a243a;
+    overflow: inherit;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+
+
+#container{
+    width: 100%;
+    align-content: center;
+}
+
+#menuitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#menuitem > h3{
+    padding: 16px;
+}
+
+#menuitem > h3:hover{
+    color:#ed4923;
+    transform: translateY(-7px);
+}
+
+
+#titlebar{
+    padding-left: 170px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchbar{
+    padding: 20px;
+    align-content: center;
+    display: flex;
+}
+
+#searchbar > button{
+    float: right;
+    outline: none;
+}
+
+#searchbar > input{
+    font-size: 15px;
+    height: 20px;
+    color: #fff;
+    width: 110px;
+    padding-right: 20px;
+    outline: none;
+}
+
+hr{
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 2px solid #fff;
+}
+
+#line{
+    border-width: thin;
+}
+
+
+#editbar{
+    float: right;
+    padding-right: 180px;
+    padding-top: 30px;
+}
+
+#editbar > div{
+    width: 80px;
+    height: 40px;
+    line-height : 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+#content{
+    padding-left: 130px;
+    margin: 20px;
+}
+
+#content > table {
+    border-collapse: collapse;
+    width: 86%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#content > table, th, td {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+#content > table > thead > tr > th{
+    margin:20px;
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+td{
+    height: 30px;
+    padding:10px;
+    opacity: 40%;
+}
+
+.one_wide{
+    width:50px;
+
+}
+
+.ten_wide{
+    width: 500px;
+}
+
+.two_wide{
+    width: 140px;
+
+}
+
+.three_wide{
+
+}
+

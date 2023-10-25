@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a243a;
+    overflow:hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+#subcontainer{
+    display: flex;
+    height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+#fixedcontainer{
+    float: right;
+    width: 30%;
+}
+
+#header {
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    flex:1;
+}
+
+#header.h1{
+    text-align: center;
+}
+
+#login{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    margin: 10px;
+    flex:2;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#sidebar{
+    background-color: #fff;
+    border: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+    color: #000;
+    flex:3;
+}
+
+#sidebar > div {
+    padding: 10px;
+}
+
+#sidebar > div > div {
+    padding: 5px;
+}
+
+#content{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+    flex:3;
+    flex-direction: column;
+}
+
+#footer{
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1a243a;
+    box-shadow: 0px 15px 20px rgb(120, 124, 133);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+
+
+
+/* 반응형 스타일링 */
+@media (max-width: 768px) {
+    #container {
+        padding: 10px;
+    }
+
+    #header, #content, #sidebar {
+        margin: 5px;
+        padding: 10px;
+    }
+}

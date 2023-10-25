@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GOOOOOOO</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <!-- dribbble -->
+    <a class="dribbble" href="https://dribbble.com/shots/7441241-Button-Hover-Effects" target="_blank">
+        <img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt="">
+    </a>
+</head>
+<body>
+<div id="container">
+    <div id="subcontainer">
+        <div id="fixedcontainer">
+            <div id="header">
+                <img src="/img/logo.png" alt="My Iogo">
+            </div>
+            <div id="sidebar">
+                <div id="side">
+                    <div th:onclick="|location.href='@{/list}'|">게시판</div>
+                    <div> 게시판 </div>
+                    <div> 게시판 </div>
+                </div>
+            </div>
+            <div id="login">
+                <div id="signin">
+                    <button class="btn_signin">로그인</button>
+                </div>
+                <div id="signup">
+                    <button class="btn_signup">회원가입</button>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <h2> TODAY</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright</p>
+    </div>
+</div>
+</body>
+</html>
+
